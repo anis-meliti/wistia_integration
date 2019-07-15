@@ -1,0 +1,587 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+/*************header*************/
+header {
+    display: flex;
+    height: 65px;
+    width: 100%;
+    background-color: #c896a5;
+    color: #fff;
+    font-weight: bold;
+}
+header:hover{
+    color: rgb(54, 57, 69);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+header:hover li#logo-wistia svg g path {
+    fill: #3EA9F5; 
+    border-bottom: 1px solid #000;
+}
+
+.head-list{
+    display: flex;
+    flex: 4;
+    align-items: baseline; 
+    justify-content: flex-start; 
+} 
+
+
+
+.button{
+
+    color: rgb(54, 57, 69);
+    background-color: #fff;
+    border:0.5px solid;
+    border-color: rgb(214, 218, 222);
+    border-radius: 5px;
+    height: 40px;
+    padding:9px 25px 9px 25px;
+    margin: 5px;
+    font-weight: bold;
+   
+
+}
+#btn-getstart,#btn-crt-free{
+    border:none;
+    color:  #fff;
+    background-color:rgb(62, 169, 245);
+    
+} 
+#btn-getstart:hover, #btn-getstart:focus{
+    box-shadow: 0px 6px 0px 1px blue;
+
+}
+.button:hover, .button:focus{
+    cursor: pointer;
+    box-shadow: 0px 8px 0px 1px  rgb(167, 167, 167);
+    transform: translateY(-0.25em);
+}
+
+.btn{
+
+    display: flex;
+    flex:2;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 15px;
+}
+
+.nav-list{
+    padding: 20px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+#logo-wistia{
+    align-self: center;
+    margin: 25px;
+}
+li#logo-wistia svg g path {
+    fill: #fff;
+}
+   
+
+/***************footer*************/
+.ud_condition_term{
+    width: 100%;
+    height: 75px ;
+    text-align: center;
+    background-color: #efefef;
+    padding: 25px;
+    color: #535456;
+    font-weight: 500;
+
+}
+.ud_condition_term a{
+    color: #8e98a5;
+}
+
+.page_foot{
+    width: 100%;
+    height: 443px;
+    background-color: #2a2d35;
+    display: flex;
+}
+.footer-text{
+    width: 100%;
+    
+    align-self: center;
+    
+    line-height: 1.3;
+    max-width: 388px;
+    padding-left:100px;
+    padding-right: 10px;
+    margin-right: 25px;
+    order: 8;
+
+    color: #fff;
+    font-size: 30px;
+}
+.follow_div{
+    
+    align-self: center;
+    order: 4;
+    margin-top: 25px;
+
+    font-size: 16px;
+
+}
+.follow_div a{
+    text-decoration: none;
+    color: #56BE8E;
+
+}
+.vl{
+    height: 200px;
+    border:none;
+    border-left: 1px solid #B2B9C1;
+    margin: 65px 0px;
+    opacity: 0.1;
+    width: 1px;
+    align-self: center;
+    order: 8;
+}
+.footer-link{
+   
+    align-self: baseline;
+    order:10;
+    margin-left: 100px;
+    margin-top: 139px;
+    line-height: 2.0;
+    color: #939ead;
+    font-size: 14px;
+}   
+.link-exterieur a{
+    text-decoration: none;
+    color: #fff;
+}
+.copyright-item{
+    align-self: flex-end;
+    justify-content: center;
+        
+
+}
+ /************main************/
+#crt-account a{
+    color: #3ca3ec;
+} 
+a:hover {
+    transform: translateX(-0.25em);
+}
+#install-free a{
+    color: #FD9786;
+}
+.home-video{
+    display: flex;
+    align-self: center;
+
+    height: 671px;
+    background-color: #c896a5;
+}
+.text-division{
+    width: 510px;
+    align-self: center;
+    margin-left: 10%;
+    order: 8;
+    
+    font-size: 2.6em;
+    font-weight: 400;
+    color: #363945;
+}
+.white-text{
+    color: #fff;
+}
+#btn-wtch-vdeo{
+
+    align-self: center;
+    order:4;
+    width: 210px;
+    height: 68px;
+    margin-top: 25px;   
+}
+.video-division{
+    display: flex;
+    order: 9;
+    height: 100%;
+}
+.text-section{
+    display: flex;
+}
+.IconChartGrowth{
+    height: 55px;
+    width: 55px;
+    fill: #3EA9F5;
+}
+.text-section-title{
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #fff;
+
+}
+.wistia-hosting{
+    order: 4;
+    padding: 49px;
+    width: 34%;
+    background-color: #fed24a;
+    line-height: 1.9;
+    font-size: 17px;
+    font-weight: 500; 
+    color: #363945;  
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.text-section-title a{
+    color: #363945;
+}
+.soap-box-text{
+    background-color: #51c29f;
+    width: 34%;
+    order: 8;
+}
+#soap-box{
+    background-color: #51c29f;
+}
+.Icon{
+    height: 55px;
+    width: 55px;
+}
+.IconLaptop{
+    fill:#E7B8C7;
+
+}
+.IconBookChapter{
+    fill:#FED24A;
+} 
+#grown-skill{
+    background-color: #3EA9F5;
+}
+
+#btn-strat-free{
+    width: 180px;
+    height: 60px;
+    background-color:#fed24a;
+    font-size: 17px;
+
+ }
+ 
+ #btn-grow-skill:hover,#btn-strat-free:hover,#btn-strat-free-soapbox:hover{
+     background-color: #fff;
+ }
+ #btn-strat-free-soapbox{
+    width: 180px;
+    height: 60px;
+    background-color:#51c29f;
+    font-size: 17px;
+ }
+
+ #btn-grow-skill{
+    width: 180px;
+    height: 60px;
+    background-color:#3ea9f5;
+    font-size: 17px;
+    padding: 15px;
+    margin-top: 50px;
+ }
+ .client-section{
+     display: flex;
+     margin-top: 5%;
+ }
+
+ .text-div-client{
+     width: 100%;
+     color: #9CA8B7;
+     font-size: 17px;
+     font-weight: 500;
+     margin:56px 47px;
+     order: 4;
+ }
+ .client-logo{
+    width:80%;
+    height: 147px;
+    max-width: 170px;
+    order: 8;
+    margin: 25px 46px;
+    align-self: baseline;
+    
+ }
+    #moz-logo{
+        width:129%;
+        height:75px;
+        align-self: center;
+
+    }
+#casper-logo{
+    height:75px;
+
+}
+.feature-block{
+    display: flex;
+    width: 100%;
+    height: 575px;
+}
+.feature-block-image{
+    width: 30%;
+    height: 243px;
+    margin: 4%;
+    
+
+}
+.feature-block img{
+    width: 342px;
+    height:243px;
+   
+}
+.feature-block-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;     
+    margin:2%;
+    line-height: 2;
+
+    color: #6a6e79;
+    font-weight: 500;
+}
+
+
+.feature-block-title{
+    margin: 2%;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 2;
+    color: #2a2d35;
+
+}
+
+.feature-block a{
+    line-height: 2.2;
+    color: #3769cc;
+    margin-top: 15px;
+}
+
+
+
+
+.layer{
+    width: 342px;
+    height:243px; 
+    background:rgba(62, 169, 245);   
+    opacity: 0;
+    position: absolute;
+    overflow: hidden;
+    
+   
+}
+#img-new-sieres:hover .layer{
+    background:rgba(62, 169, 245);
+    opacity: .8;
+    cursor: pointer;
+    
+} 
+#img-feature-block:hover .layer{
+    background:rgba(81, 194, 159);
+    opacity: .8;
+    cursor: pointer;
+}
+#img-webinar-channel:hover .layer{
+    background:rgba(206, 160, 175);
+    opacity: .8;
+    cursor: pointer;
+}
+
+
+#btn-strat-free:hover ~ .Icon{
+    fill: #fff;
+}
+.saopbox-btn:hover ~ .IconLaptop{
+    fill: #fff;
+}
+
+.growskill-btn:hover ~ .IconBookChapter{
+    fill: #fff;
+}
+/********dropdown menu *******/
+.sub-menu-wm{
+    display:none;  
+    position: absolute;
+    top: 25px;
+    left: 0;
+   max-height: 250px;
+    width: 100%;
+    margin-top: 3%;
+    background-color: #fff;
+    color: #000;
+    
+    
+}
+.sub-menu-logo-item{
+    
+    width:225px;
+    font-size: 39px;
+    font-weight: 300;
+    margin: 4% 2% 5% 5%;
+
+}
+
+ .sub-menu-text-item{
+    
+    width:290px ; 
+    align-items: center; 
+    color: #6a6e79;
+    font-size: 14px;
+    line-height: normal;
+ } 
+ .sub-menu-links a{
+    text-decoration: none;
+    color: #363945;
+ }
+ .sub-menu-links{
+     margin-top: 4%;
+     margin-right: 7%;
+     line-height: 1.8;
+     font-weight: 400;
+     font-size: 14px;
+     color: #6a6e79;
+ }
+ .last-sub-item{
+     margin-bottom: 40%;
+ }
+ #btn-crt-free{
+    width: 193px;
+    height: 40px;
+    padding: 5px;
+    font-size: 15px;
+    margin: 7% 0 7% 44%
+ }
+
+ #wistia-marketing:hover{
+     color: #3EA9F5;
+ }
+
+#wistia-marketing:hover .sub-menu-wm{
+      display: flex;
+      
+      
+} 
+#wistia-marketing:hover .IconCarrot{
+    transform:rotate(180deg);
+}
+#soapbox:hover .IconCarrot{
+    transform:rotate(180deg);
+}
+#learning-center:hover .IconCarrot{
+    transform:rotate(180deg);
+}
+#learning-center:hover{
+    color:rgb(58, 177, 106);
+}
+#soapbox:hover{
+    color: rgb(227, 119, 102);
+}
+
+#soapbox:hover #soapbox-submenu{
+    display: flex;
+
+}
+#learning-center:hover #Lern-center-submenu{
+    display: flex;
+}
+#video_series_item:hover .IconCarrot{
+    transform:rotate(180deg);
+}
+
+#video_series_item:hover #video-series-submenu{
+    display: flex;
+}
+#video_series_item:hover{
+    color: #1C55C5;
+}
+
+.IconCarrot{
+    width: 10px;
+    height: 10px;
+}
+#btn-install-free{
+    justify-content: end;
+    justify-content: flex-end;
+    background-color: rgb(227, 119, 102);
+    color: #fff;
+}
+
+#item-logo-leran-center{
+    color:rgb(58, 177, 106);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 2.2; 
+}
+#btn-subscribe{
+    background-color: rgb(58, 177, 106);
+    
+}
+.btn-sub-menu-list{
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: center;
+    width: 100%;
+    margin-right: 8px;
+}
+#item-logo-video-series{
+    font-size: 23px;
+    font-weight: 700;
+    color: #1C55C5;
+    line-height: 2.2;
+}
+.video-series-container{
+    background-color: transparent;
+    width: 40%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    white-space: normal;
+    margin-bottom: 25px;
+
+
+}
+.concert-ticket-image{
+    background-color: #EFEFEF; 
+    background-image: url("../img/brandwagon_nav-concert-ticket-text.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1 0 135px;
+    width: 135PX;
+    height: 100%;
+}
+.brandwagon-title{
+    color:#2A2D35;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 25px 30px;
+   
+
+}
+.brandwagon-content{
+    color: #5B6B7F;
+    font-size: 14px;
+    width: 330px;
+    line-height: 1.4;
+    padding: 25px 30px;
+    vertical-align: auto;
+    
+}
+#brandwagon-image{
+    background-image: url("../img/one-ten-one-hundred-promo.png");
+}
